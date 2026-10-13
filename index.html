@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Юлия Златковская — директор по маркетингу</title>
+<style>
+:root{--accent:#b4491f;--ink:#1d1a19;--muted:#6a625e;--bg:#faf7f4;--card:#fff;--dark:#17110f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--bg);line-height:1.7;font-size:18px}
+h1,h2,h3,.sans{font-family:"Segoe UI",system-ui,-apple-system,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+section{padding:72px 0 0}
+h2{font-size:1.9rem;margin:0 0 22px;position:relative;padding-bottom:12px}
+h2::after{content:"";position:absolute;left:0;bottom:0;width:48px;height:3px;background:var(--accent)}
+p{margin:0 0 16px}
+strong{color:var(--accent)}
+img{display:block;max-width:100%}
+.hero{background:var(--dark);color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:56px}
+.tag{display:inline-block;background:var(--accent);color:#fff;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding:4px 12px;border-radius:99px;margin-bottom:18px}
+.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.1;margin:0 0 16px;letter-spacing:-.5px}
+.hero p{font-size:1.1rem;opacity:.92;margin:0 0 12px}
+.hero img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 18%;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.mission{border-left:3px solid var(--accent);padding:4px 0 4px 16px;margin-top:20px;font-style:italic}
+.accent-img{float:right;width:260px;height:320px;object-fit:cover;object-position:50% 20%;border-radius:14px;margin:0 0 16px 28px;box-shadow:0 2px 14px rgba(0,0,0,.12)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px;list-style:none;padding:0;margin:0}
+.facts li{background:var(--card);border-left:4px solid var(--accent);padding:14px 16px;border-radius:8px;font-size:.97rem}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+.gallery img{width:100%;height:300px;object-fit:cover;border-radius:12px}
+.timeline{list-style:none;padding:0;margin:0;counter-reset:s;border-left:2px solid #e3d8d0}
+.timeline li{counter-increment:s;position:relative;padding:0 0 22px 28px}
+.timeline li::before{content:counter(s);position:absolute;left:-15px;top:0;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font:600 .85rem "Segoe UI",sans-serif;display:flex;align-items:center;justify-content:center}
+.timeline h3{margin:0 0 4px;font-size:1.1rem}
+.timeline p{margin:0;font-size:.97rem;color:var(--muted)}
+.career{display:grid;grid-template-columns:1fr 280px;gap:36px;align-items:start}
+.career img{width:100%;height:420px;object-fit:cover;object-position:35% 50%;border-radius:14px;position:sticky;top:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;padding:18px 20px;box-shadow:0 2px 14px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px;font-size:1.05rem;color:var(--accent)}
+.card p{margin:0;font-size:.95rem;color:var(--muted)}
+ul.plain{padding-left:20px}ul.plain li{margin-bottom:8px}
+.finale{margin-top:80px;color:#fff;text-align:center;padding:110px 20px;
+ background:linear-gradient(rgba(20,10,8,.74),rgba(20,10,8,.82)),url(images/audience.jpg) center/cover}
+.finale blockquote{margin:0 auto;max-width:680px;font-size:clamp(1.4rem,4.2vw,2.2rem);font-style:italic;line-height:1.4}
+.finale cite{display:block;margin-top:16px;font-size:1rem;opacity:.85;font-style:normal}
+footer{font-size:.8rem;color:var(--muted);padding:24px 20px 40px;text-align:center}
+@media(max-width:700px){
+ body{font-size:17px}section{padding-top:52px}
+ .hero .wrap{grid-template-columns:1fr;padding-top:32px}.hero img{order:-1;aspect-ratio:4/5;max-height:70vh}
+ .accent-img{float:none;width:100%;height:260px;margin:0 0 16px}
+ .gallery{grid-template-columns:1fr}.gallery img{height:260px}
+ .career{grid-template-columns:1fr}.career img{height:260px;position:static;order:-1}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+ <div class="wrap">
+  <div>
+   <h1>Юлия Златковская</h1>
+   <span class="tag sans">серийный директор по маркетингу</span>
+   <p>Создаю, вдохновляю и развиваю сильные команды для успешных брендов</p>
+   <p class="mission">Мама, Жена, Женщина</p>
+  </div>
+  <img src="images/main.jpg" alt="Портрет">
+ </div>
+</header>
+
+<main class="wrap">
+
+<section>
+ <h2>Про меня</h2>
+ <img class="accent-img" src="images/portrait.jpg" alt="Портрет в чёрном">
+ <p>Я — <strong>маркетинг-лидер</strong> с опытом в digital, performance, PR, продуктовом и B2B-маркетинге.</p>
+ <p>Помогаю компаниям выстраивать маркетинг как систему: от стратегии, позиционирования и команды до лидогенерации, аналитики, воронок и бизнес-результата.</p>
+ <p>Мой подход — соединять <strong>данные, интуицию, смыслы и людей</strong>. Я люблю сложные задачи, в которых важно увидеть не только цифры, но и контекст: продукт, рынок, аудиторию, команду и то, как всё это связано между собой.</p>
+</section>
+
+<section>
+ <h2>Факты обо мне</h2>
+ <ul class="facts">
+  <li>Мама двоих прекрасных взрослых сыновей и собаки Альбы.</li>
+  <li>Автор проекта <strong>«Старший специалист»</strong> и сторонник идеи борьбы с возрастными стереотипами.</li>
+  <li>Люблю то, что делаю, люблю людей и многогранность вещей и смыслов.</li>
+  <li>Сильный интуит и эмпат.</li>
+  <li><strong>23 года</strong> профессионального опыта в медиа, PR и маркетинге.</li>
+  <li>Работала в IT, банкинге, фарме, e-commerce и медиа.</li>
+  <li>Участвовала в запуске <strong>первой в Беларуси онлайн-аптеки</strong> с бронированием и доставкой.</li>
+  <li>Запускала <strong>первый в Беларуси онлайн-банк</strong>.</li>
+  <li>Организатор <strong>крупнейшей в стране бизнес-конференции</strong>.</li>
+ </ul>
+ <div class="gallery">
+  <img src="images/event-stand.jpg" alt="На мероприятии" style="object-position:50% 40%">
+  <img src="images/hr-day.jpg" alt="HR Day" style="object-position:50% 45%">
+  <img src="images/stage.jpg" alt="Сцена: «Огонь в сердце»" style="object-position:30% 60%">
+ </div>
+</section>
+
+<section>
+ <h2>Карьерный путь</h2>
+ <div class="career">
+  <ol class="timeline">
+   <li><h3>Медиа и журналистика</h3><p>Новости, репортажи, сценарии и документальные проекты дали сильную базу в сторителлинге, редактуре, работе с фактами и понимании аудитории.</p></li>
+   <li><h3>Переход в digital</h3><p>Социальные сети, рекламные кампании, продвижение онлайн-платформ, контент и работа с вовлечением аудитории.</p></li>
+   <li><h3>PR и продуктовые коммуникации</h3><p>В банковской сфере: PR, внешние коммуникации, рекламные кампании и продвижение digital-продуктов. Усилился интерес к продуктовым метрикам, удержанию и связи коммуникаций с бизнес-результатом.</p></li>
+   <li><h3>E-commerce и запуск новых направлений</h3><p>В фармацевтическом холдинге: digital, PR, локальный маркетинг и запуск онлайн-направления, включая первую в Беларуси онлайн-аптеку с бронированием и доставкой.</p></li>
+   <li><h3>B2B и IT-маркетинг</h3><p>Inbound-лидогенерация, SEO, PPC, контент-маркетинг, посадочные страницы, аналитика и отчётность, вывод продуктов на рынок и маркетинговые воронки для клиентов.</p></li>
+   <li><h3>Маркетинг как система</h3><p>Стратегия, сильная команда, архитектура процессов, развитие продукта и прозрачная для стейкхолдеров связь маркетинга с бизнес-результатом.</p></li>
+  </ol>
+  <img src="images/writing.jpg" alt="За работой">
+ </div>
+</section>
+
+<section>
+ <h2>Образование</h2>
+ <p>Моё образование соединяет коммуникации, бизнес и управленческий подход.</p>
+ <ul class="plain">
+  <li>БГУ, факультет журналистики — Беларусь.</li>
+  <li>ВШЭ, Высшая школа экономики — Россия.</li>
+  <li>БГУ, Институт бизнеса, MBA — Беларусь.</li>
+ </ul>
+ <p>Дополнительно регулярно усиливаю экспертизу в digital-маркетинге, веб-аналитике, продуктовом маркетинге, оценке эффективности кампаний и применении нейросетей в бизнесе.</p>
+</section>
+
+<section>
+ <h2>Мои фокусы</h2>
+ <div class="cards">
+  <div class="card"><h3>Marketing strategy</h3><p>Цели, позиционирование, рост и приоритеты.</p></div>
+  <div class="card"><h3>Brand &amp; communications</h3><p>Смыслы, репутация, доверие и узнаваемость.</p></div>
+  <div class="card"><h3>Performance &amp; growth</h3><p>Каналы, воронки, лиды, конверсии и ROI.</p></div>
+  <div class="card"><h3>Product marketing</h3><p>Упаковка ценности, JTBD, go-to-market, запуск новых направлений.</p></div>
+  <div class="card"><h3>Analytics &amp; CRM</h3><p>Данные, сегменты, отчётность и управляемая коммуникация.</p></div>
+  <div class="card"><h3>Team leadership</h3><p>Процессы, роли, фокус и энергия команды.</p></div>
+ </div>
+</section>
+
+</main>
+
+<div class="finale">
+ <blockquote>Вдохновлять и вдохновляться новыми открытиями, чтобы чувствовать жизнь и убеждать, что всё не просто так.<cite>— моя миссия</cite></blockquote>
+</div>
+
+<footer>Персональная страница-визитка</footer>
+
+</body>
+</html>
